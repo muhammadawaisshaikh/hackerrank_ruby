@@ -12,4 +12,11 @@ def iterate_colors(colors)
     }
 end
 
+def iterate_colors_array(colors)
+    arr = []
+    colors.each {|c| arr << c}
+    return arr
+end
+
 iterate_colors(colors);
+puts iterate_colors_array(colors);
